@@ -9,7 +9,7 @@ The Buildpack will download and compile OSRM and depending on the data files pro
 ```
 git init
 heroku apps:create
-heroku buildpacks:set https://github.com/chrisanderton/heroku-osrm-buildpack
+heroku buildpacks:set https://github.com/shivamagg/heroku-osrm-buildpack
 curl -L https://raw.githubusercontent.com/Project-OSRM/osrm-backend/develop/profiles/car.lua -o profile.lua
 mkdir lib
 curl -L https://raw.githubusercontent.com/Project-OSRM/osrm-backend/develop/profiles/lib/access.lua -o lib/access.lua
